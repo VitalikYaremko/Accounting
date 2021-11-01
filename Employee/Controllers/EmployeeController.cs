@@ -20,7 +20,7 @@ namespace Accounting.Controllers
         [HttpGet, Route("~/api/employee")]
         public async Task<IHttpActionResult> GetAll()
         {
-            return Ok(new string[] { "value1", "value2" });
+            return Ok();
         }
 
         [HttpGet, Route("~/api/employee/{id}")]
